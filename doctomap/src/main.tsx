@@ -7,6 +7,10 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home';
+import Hospitals from './pages/Hospitals';
+import Doctors from './pages/Doctors';
+import DoctorUpdate from './pages/DoctorUpdate';
+import HospitalUpdate from './pages/HospitalUpdate';
 
 
 
@@ -18,8 +22,20 @@ const router = createBrowserRouter([
     element: <Home/>
   },
   {
-    path: "/create",
-    element: <h1>Create</h1>
+    path: "/hospitals",
+    element: <Hospitals />
+  },
+  {
+    path: "/hospitalUpdate",
+    element: <HospitalUpdate />
+  },
+  {
+    path: "/doctors",
+    element: <Doctors />
+  },
+  {
+    path: "/doctorUpdate",
+    element: <DoctorUpdate />
   }
 ]);
 

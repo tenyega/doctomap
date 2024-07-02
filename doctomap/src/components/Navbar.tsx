@@ -8,17 +8,16 @@ export default function Nav() {
         <div className="text-xl text-white "></div>
                 <ul className="flex space-x-4">
                 <li>
-                    <NavLink to="/create" className="text-gray-300 hover:text-white"> create</NavLink>
+                    <NavLink to="/doctors" className="text-gray-300 hover:text-white">Doctors</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/read" className="text-gray-300 hover:text-white">Read</NavLink>
+                    <NavLink to="/hospitals" className="text-gray-300 hover:text-white">Hospitals</NavLink>
                 </li>
+             
                 <li>
-                    <NavLink to="/update" className="text-gray-300 hover:text-white">update</NavLink>
+                    <NavLink to="/" className="text-gray-300 hover:text-white">Acceuil</NavLink>
                 </li>
-                <li>
-                    <NavLink to="/contact" className="text-gray-300 hover:text-white">delete</NavLink>
-                </li>
+                
                 
             </ul>
         </div>
